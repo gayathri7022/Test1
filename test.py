@@ -1,5 +1,5 @@
 from student import DB, register, issue_uniform
-
+DB.clear()
 def test_cases():
 
     res1 = register("Gayathri", "gayathri@gmail.com", "12345678")
