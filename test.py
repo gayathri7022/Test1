@@ -20,5 +20,5 @@ def test_cases():
     res6 = issue_uniform("102")
     assert res6 == "Uniform issued for student ID : {'name': 'Ancy', 'id': 102, 'email': 'Ancy@gmail.com', 'password': '87654321', 'status': 'Distributed'}"
 
-DB.clear()
+
 test_cases()
