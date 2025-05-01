@@ -5,7 +5,7 @@ def test_cases():
     res1 = register("Gayathri", "gayathri@gmail.com", "12345678")
     assert res1 == "Registration successfull"
 
-    res2 = "Ancy", "Ancy@gmail.com", "87654321"
+    res2 = register("Ancy", "Ancy@gmail.com", "87654321")
     assert res2 == "Registration successfull"
 
     res3 = register("Gayathri", "gayathri", "12345678")
