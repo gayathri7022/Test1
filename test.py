@@ -1,7 +1,8 @@
 from student import DB, register, issue_uniform
 
+DB.clear()
 def test_cases():
-    DB.clear()
+   
     res1 = register("Gayathri", "gayathri@gmail.com", "12345678")
     assert res1 == "Registration successfull"
 
